@@ -1,0 +1,8 @@
+uuid: 6c197156-7f77-4982-9765-49c0387bc68a
+langcode: en
+status: true
+dependencies: {  }
+name: 'FAQ Tags'
+vid: faq_tags
+description: 'Terms for the Frequently Asked Questions'
+weight: -7

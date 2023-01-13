@@ -1,0 +1,58 @@
+uuid: 524b1061-fd2b-4f4f-b559-db8df0068936
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.faq.body
+    - field.field.node.faq.field_detailed_question
+    - field.field.node.faq.field_faq_tags
+    - field.field.node.faq.field_subject_tag
+    - node.type.faq
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: gjgsbekajWWLLEAsiUeU8w6axCf3UMTFPjRhlmMRf-Q
+id: node.faq.default
+targetEntityType: node
+bundle: faq
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_detailed_question:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_faq_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_subject_tag:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  path:
+    type: path
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  links: true

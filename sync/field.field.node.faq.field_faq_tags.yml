@@ -1,0 +1,29 @@
+uuid: 245e9de5-f8dd-4611-8123-66e7b579939e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_faq_tags
+    - node.type.faq
+    - taxonomy.vocabulary.faq_tags
+id: node.faq.field_faq_tags
+field_name: field_faq_tags
+entity_type: node
+bundle: faq
+label: 'FAQ Tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      faq_tags: faq_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
