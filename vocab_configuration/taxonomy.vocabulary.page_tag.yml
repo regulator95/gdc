@@ -1,8 +1,0 @@
-uuid: 66ab2f83-abd7-4c33-a2ce-f3acb6a1e4a3
-langcode: en
-status: true
-dependencies: {  }
-name: 'Page Tag'
-vid: page_tag
-description: 'Terms against the page navigation on the website'
-weight: -10

@@ -1,8 +1,0 @@
-uuid: 4af32110-0023-42b1-a7ec-90e263f478d9
-langcode: en
-status: true
-dependencies: {  }
-name: 'Attachment Tag'
-vid: attachment_tag
-description: ''
-weight: -4

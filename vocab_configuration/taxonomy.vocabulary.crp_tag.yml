@@ -1,8 +1,0 @@
-uuid: 402cfa37-bc13-4a9c-94a3-80f1d27d9ec9
-langcode: en
-status: true
-dependencies: {  }
-name: 'CRP Tag'
-vid: crp_tag
-description: 'Terms for the Cancer Research Program Content Type'
-weight: -8

@@ -1,8 +1,0 @@
-uuid: 6fd29ed7-44c8-441a-a3a9-347985fbee24
-langcode: en
-status: true
-dependencies: {  }
-name: 'Usage Stats Tags'
-vid: usage_stats_tags
-description: ''
-weight: 3
