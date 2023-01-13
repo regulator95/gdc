@@ -1,0 +1,18 @@
+uuid: e54fce41-b42b-4791-b5c0-c02d35c5af97
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Institution Person Affiliation'
+type: ins_per_aff
+description: 'Affiliation between a person and the institution'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

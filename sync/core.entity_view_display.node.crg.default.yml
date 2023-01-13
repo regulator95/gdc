@@ -1,0 +1,28 @@
+uuid: 3c1a127d-9eea-4c96-8a63-b30b56005ab6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.crg.body
+    - node.type.crg
+  module:
+    - text
+    - user
+id: node.crg.default
+targetEntityType: node
+bundle: crg
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

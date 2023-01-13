@@ -1,0 +1,28 @@
+uuid: becb8f5d-532e-412d-94fe-bd472416acf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.institution.body
+    - node.type.institution
+  module:
+    - text
+    - user
+id: node.institution.default
+targetEntityType: node
+bundle: institution
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,30 @@
+uuid: 7c94f4c4-71d6-44e3-93fd-50c72d9c64f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.crg.body
+    - node.type.crg
+  module:
+    - text
+    - user
+id: node.crg.teaser
+targetEntityType: node
+bundle: crg
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

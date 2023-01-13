@@ -1,0 +1,32 @@
+uuid: 7e4299c9-d7e8-4c31-bdc9-31c2d32567e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.biography.body
+    - field.field.node.biography.field_biography_tag
+    - node.type.biography
+  module:
+    - text
+    - user
+id: node.biography.teaser
+targetEntityType: node
+bundle: biography
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_biography_tag: true

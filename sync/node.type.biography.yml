@@ -1,0 +1,18 @@
+uuid: 3571cb6b-5ccc-4e15-b037-6037b21dfcd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Biography (Revisit After adding all types)'
+type: biography
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

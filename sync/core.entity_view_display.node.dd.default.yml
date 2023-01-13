@@ -1,0 +1,28 @@
+uuid: 821e9732-41b5-4af6-b78d-d2ff8835db46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.dd.body
+    - node.type.dd
+  module:
+    - text
+    - user
+id: node.dd.default
+targetEntityType: node
+bundle: dd
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

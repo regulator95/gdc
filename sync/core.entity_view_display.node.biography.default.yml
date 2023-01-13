@@ -1,0 +1,37 @@
+uuid: 5ac48c32-0406-4c13-b23b-6e788c809d3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.biography.body
+    - field.field.node.biography.field_biography_tag
+    - node.type.biography
+  module:
+    - text
+    - user
+id: node.biography.default
+targetEntityType: node
+bundle: biography
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_biography_tag:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

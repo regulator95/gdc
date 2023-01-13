@@ -1,0 +1,22 @@
+uuid: ecc20a9a-4975-4ae4-b33e-7709d77dc62f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.biography
+id: node.biography.promote
+field_name: promote
+entity_type: node
+bundle: biography
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

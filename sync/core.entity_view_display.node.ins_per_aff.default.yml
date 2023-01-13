@@ -1,0 +1,28 @@
+uuid: ea01cd99-4dbd-451b-8f7d-92b3744a20ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ins_per_aff.body
+    - node.type.ins_per_aff
+  module:
+    - text
+    - user
+id: node.ins_per_aff.default
+targetEntityType: node
+bundle: ins_per_aff
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
