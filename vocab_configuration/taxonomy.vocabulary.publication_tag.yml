@@ -1,0 +1,8 @@
+uuid: 1b2ef79e-f3ad-46a3-a7ee-3890412bbb83
+langcode: en
+status: true
+dependencies: {  }
+name: 'Publication Tag'
+vid: publication_tag
+description: ''
+weight: 0

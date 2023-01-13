@@ -1,0 +1,8 @@
+uuid: a38d29eb-2d4d-4c32-abac-46b377ee6423
+langcode: en
+status: true
+dependencies: {  }
+name: 'Group Tag'
+vid: group_tag
+description: ''
+weight: -5
